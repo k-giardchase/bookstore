@@ -1,3 +1,67 @@
+##Developers
+Kyle Giard-Chase
+
+##Date
+May 15 2015
+
+##Description
+A website for a bookstore created with Drupal.
+
+##Technologies Used
+<a href="https://www.drupal.org/">Drupal</a><br>
+<a href="https://www.mamp.info/en/">MAMP</a>
+
+##Use and Editing
+To view the site,<br>
+1. Open your command line and clone the repository using the command `https://github.com/k-giardchase/bookstore`<br>
+2. Change directory into the top level of the project folder. `cd bookstore`
+3. Go into MAMP preferences and set the document root to the Drupal Core directory `bookstore`.
+4. Start your MAMP servers.
+5. Import the database using the instructions in the database section.
+6. Open your browser and navigate to your root path: `localhost:8888`
+7. NOTE: to login as an admin use the username `admin` and the password `admin`.
+8. NOTE: to login as a Reviewer, use the username `Reviewer` and the password `reviewer`.
+
+##DATABASE
+1. Open your browser and navigate to `localhost:8888/MAMP`
+2. Select `phpMyAdmin` under `Tools`.
+3. Click the `Import` tab.
+4. Leave all default settings, but do take care to make sure the character set is `utf-8`.
+5. Click `Choose File` button and select bookstore.sql.gz found in `bookstore/sites/db-backups/`.
+6. Click `Go` button on the bottom left.
+7. Recreate the database username and password.
+8. Select `Privileges` tab and click `Add User`. Set the username to `bookstore` and the password to `password`.
+9. Open your browser once more and clear your cookies.
+10. Navigate to your root path: `localhost:8888`.
+
+##Login Information
+DBNAME: bookstore <br>
+DB username: bookstore<br>
+DB password: password <br>
+<br>
+ADMIN username: admin <br>
+ADMIN password: password<br>
+
+##Copyright (c) 2015 Kyle Giard-Chase
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
 
 CONTENTS OF THIS FILE
 ---------------------
