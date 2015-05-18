@@ -1,0 +1,22 @@
+<?php
+function deals_menu() {
+    $items = array();
+    $items['deals'] = array(
+        'title' => 'Our Daily Deals',
+        'page callback' => 'deals_display',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+        );
+    return $items;
+}
+
+function deals_display() {
+    return '
+    <ul>
+        <li>10% of Sci-Fi novels</li>
+        <li>2 for 1 Chai Lattes in the cafe</li>
+        <li>All teachers recieve 15% discount</li>
+    </ul>
+    ';
+}
+?>

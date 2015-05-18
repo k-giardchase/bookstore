@@ -1,0 +1,5 @@
+name = Deals
+description = List out a bookstore's daily deals.
+package = Epicodus Examples
+core = 7.x
+files[] = specials.module
